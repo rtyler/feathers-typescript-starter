@@ -1,0 +1,3 @@
+= Feathers TypeScript Starter
+
+
