@@ -8,3 +8,8 @@ link:https://typescriptlang.org[TypeScript].
 It includes the things which **I** find to be terribly useful and serves as a
 template for rapidly building out applications
 
+
+== Copying
+
+This repository is licensed as AGPL 3.0 (see `LICENSE.txt`), but I'm happy to
+re-license it under another more permissive license for those who ask nicely :smile:
