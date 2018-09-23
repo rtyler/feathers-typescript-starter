@@ -1,3 +1,10 @@
 = Feathers TypeScript Starter
 
 
+This repository is a simple template of a
+link:http://feathersjs.com[FeathersJS] application using
+link:https://typescriptlang.org[TypeScript].
+
+It includes the things which **I** find to be terribly useful and serves as a
+template for rapidly building out applications
+
