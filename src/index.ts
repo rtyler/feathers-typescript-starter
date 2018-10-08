@@ -12,3 +12,9 @@ process.on('unhandledRejection', (reason, p) =>
 server.on('listening', () =>
   logger.info('Feathers application started on http://%s:%d', app.get('host'), port)
 );
+
+// REMOVE ME: this part just shows/checks that we can use Promise.finally, introduced in ES2018.
+Promise.resolve('blah')
+    .then( () => {})
+    .finally ( () => {});
+// END REMOVE ME
