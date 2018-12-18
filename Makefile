@@ -17,7 +17,7 @@ clean:
 	rm -rf node_modules
 
 debug-jest:
-	node --inspect-brk=0.0.0.0:9229 ./node_modules/.bin/jest
+	node --inspect-brk=0.0.0.0:9229 ./node_modules/.bin/jest --runInBand
 
 watch:
 	jest --watch
