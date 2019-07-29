@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # If we're executing from a normal shell, allow input. If we're in a
-# subprocess, like under Jenkins Pipeline, don't allow it
+# subprocess, like under Jenkins Pipeline, don't allow it.
 tty -s
 if [ $? -eq 0 ]; then
     TTY_ARGS="-ti"
@@ -9,8 +9,8 @@ fi;
 
 COMMAND=$@
 
-# The caller is passing in some custom paraneters to the `node` binary, so we
-# need to override the entrypoint to explicitly call node
+# The caller is passing in some custom parameters to the `node` binary, so we
+# need to override the entrypoint to explicitly call node.
 if [[ "${1}" =~ "--" ]]; then
     COMMAND="node $@";
 fi;
